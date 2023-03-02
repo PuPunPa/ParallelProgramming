@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Administrator\Documents\Practica 2\Practica 2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o "C:\Users\Administrator\Documents\Practica 2\Practica 2\x64\Debug\kernel.cu.obj" "C:\Users\Administrator\Documents\Practica 2\Practica 2\kernel.cu" 
+C:\Users\Administrator\Documents\Practica 2\Practica 2\kernel.cu(60): warning #177-D: variable "i_row" was declared but never referenced
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\Administrator\Documents\Practica 2\Practica 2\kernel.cu(61): warning #177-D: variable "i_col" was declared but never referenced
+  
+  kernel.cu
+  tmpxft_00003ccc_00000000-7_kernel.cudafe1.cpp
+     Creating library C:\Users\Administrator\Documents\Practica 2\x64\Debug\Practica 2.lib and object C:\Users\Administrator\Documents\Practica 2\x64\Debug\Practica 2.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Practica 2.vcxproj -> C:\Users\Administrator\Documents\Practica 2\x64\Debug\Practica 2.exe
