@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\Practica 4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\Practica 4\x64\Debug\kernel.cu.obj" "D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\Practica 4\kernel.cu" 
+D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\Practica 4\kernel.cu(37): warning #177-D: variable "arrSize" was declared but never referenced
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_00009ff0_00000000-7_kernel.cudafe1.cpp
+     Creating library D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\x64\Debug\Practica 4.lib and object D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\x64\Debug\Practica 4.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Practica 4.vcxproj -> D:\josep\Documents\Universidad\Programacion en Paralelo Avanzada\Parcial 2\Practica 4\x64\Debug\Practica 4.exe
